@@ -7,7 +7,7 @@ function createHopStream(frame_size, hop_size, onFrame, max_data_size) {
     throw new Error("Hop size must be smaller than frame size")
   }
   max_data_size     = max_data_size || frame_size
-  var buffer        = new Float32Array(frame_size + max_data_size)
+  var buffer        = new Float32Array(2*frame_size + max_data_size)
   var ptr           = 0
   var frame_slices  = []
   for(var j=0; j+frame_size<=buffer.length; j+=hop_size) {
