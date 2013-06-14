@@ -1,0 +1,38 @@
+{
+  "name": "frame-hop",
+  "version": "0.0.0",
+  "description": "Frame slicing for windowed signal processing",
+  "main": "hop.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "tape": "~1.0.4"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/frame-hop.git"
+  },
+  "keywords": [
+    "frame",
+    "window",
+    "slice",
+    "hop",
+    "audio",
+    "signal",
+    "processing",
+    "stream"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "5d96937577bbbd707c56b471c954e7360a7d9ace",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/frame-hop/issues"
+  }
+}
