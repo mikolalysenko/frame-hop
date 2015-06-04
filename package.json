@@ -1,13 +1,12 @@
 {
   "name": "frame-hop",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Frame slicing for windowed signal processing",
   "main": "hop.js",
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "tape": "~1.0.4"
   },
